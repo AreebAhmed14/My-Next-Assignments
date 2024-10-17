@@ -1,12 +1,13 @@
 .btn{
-    padding: 0.5rem;
+    padding: 1rem;
     color: rgb(255, 255, 255);
     border: none;
     background-color: rgb(4, 36, 83);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
     border-radius: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2rem;
 }
 
 .btn:hover{
@@ -19,12 +20,51 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 70vh;
+  /* height: 70vh; */
   border-bottom: 0.5rem solid rgb(4, 36, 83);
 }
 .maintextfacility h1{
     font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin: 1rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(4, 36, 83);
+}
+.faciul{
+  width: 100%;
+  color: blue;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dl dt{
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  /* text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+  text-decoration-color: skyblue; */
+  margin: 0.5rem 1rem;
+  color: skyblue;
+}
+.dl dd{
+  font-size: 1.8rem;
+  margin: 0.5rem 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(4, 36, 83);
+}
+.ss{
+  font-size: 2rem;
+}
+
+@media(max-width:600px){
+  .dl dt{
+    font-size: 1.5rem;
+    /* margin: 0.5rem 0; */
+  }
+  .dl dd{
+    font-size: 1.5rem;
+    /* margin: 0.5rem 0; */
+  }
 }
