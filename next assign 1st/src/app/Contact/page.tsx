@@ -7,27 +7,26 @@ export default function About(){
     </center>
     <form>
       {/* <input type="hidden" value="d15ab1bb-f9db-44f8-8e85-a1ac92adbbfe" name="access_key"> */}
-      <label htmlFor="name">Name:</label><br />
+      <label>Name:</label><br />
       <input
         type="text"
         id="name"
         name="name"
         placeholder="Your name.."
       /> <br />
-      <label htmlFor="email">Email:</label><br />
+      <label>Email:</label><br />
       <input
         type="email"
         id="email"
         name="email"
         placeholder="Your email.."
       /> <br />
-      <label htmlFor="message">Message:</label><br />
+      <label>Message:</label><br />
       <textarea
         id="message"
         name="message"
-        rows={4}
-        placeholder="Write something.."
-        defaultValue={""}
+        rows={4}  
+        placeholder="Write message..."
       /> <br />
       <div className="contactcenter"><input type="submit" /></div>
     </form>

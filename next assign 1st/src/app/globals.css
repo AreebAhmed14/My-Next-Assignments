@@ -12,7 +12,7 @@ header{
 }
 .mainheading{
   font-size: 3rem;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
 }
@@ -29,14 +29,15 @@ ul li{
   margin: 0rem 2rem;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  /* color: white; */
 }
 ul li a {
   color: rgb(4, 36, 83);
   text-decoration: none;
 }
 ul li:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
   /* color: skyblue; */
   transition: 1.2s;
 }
@@ -117,7 +118,7 @@ li a:hover{
 }
 .maintextabout{
   width: 100%;
-  /* height: 70vh; */
+  height: 70vh;
   border-bottom: 0.5rem solid rgb(4, 36, 83);
   display: flex;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
